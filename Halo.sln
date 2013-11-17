@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo", "Halo\Halo.csproj", "{68D50932-1DCD-462B-896F-B4874103696D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.SqlServerConnection", "Halo.SqlServerConnection\Halo.SqlServerConnection.csproj", "{B51A3E91-C7A3-423D-AEFF-D07D8B83717F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.Utilities", "Halo.Utilities\Halo.Utilities.csproj", "{17CE06A5-276E-46EF-8C4A-34E0F8E0DBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.OracleServerConnection", "Halo.OracleServerConnection\Halo.OracleServerConnection.csproj", "{5F4A17C3-2572-4954-AF51-FAF9CA78CBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.MySQLServerConnection", "Halo.MySQLServerConnection\Halo.MySQLServerConnection.csproj", "{7A6EDA38-12BB-4262-A430-B97BF11595AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{1DDA2756-9E6E-488E-B4CD-532B09BA8C0D}"
+	ProjectSection(SolutionItems) = preProject
+		References\Oracle.DataAccess.dll = References\Oracle.DataAccess.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +22,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68D50932-1DCD-462B-896F-B4874103696D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68D50932-1DCD-462B-896F-B4874103696D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68D50932-1DCD-462B-896F-B4874103696D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68D50932-1DCD-462B-896F-B4874103696D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51A3E91-C7A3-423D-AEFF-D07D8B83717F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51A3E91-C7A3-423D-AEFF-D07D8B83717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51A3E91-C7A3-423D-AEFF-D07D8B83717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51A3E91-C7A3-423D-AEFF-D07D8B83717F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE06A5-276E-46EF-8C4A-34E0F8E0DBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE06A5-276E-46EF-8C4A-34E0F8E0DBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE06A5-276E-46EF-8C4A-34E0F8E0DBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE06A5-276E-46EF-8C4A-34E0F8E0DBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4A17C3-2572-4954-AF51-FAF9CA78CBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4A17C3-2572-4954-AF51-FAF9CA78CBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4A17C3-2572-4954-AF51-FAF9CA78CBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4A17C3-2572-4954-AF51-FAF9CA78CBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6EDA38-12BB-4262-A430-B97BF11595AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6EDA38-12BB-4262-A430-B97BF11595AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6EDA38-12BB-4262-A430-B97BF11595AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6EDA38-12BB-4262-A430-B97BF11595AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
